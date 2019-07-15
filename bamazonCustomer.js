@@ -92,9 +92,14 @@ function shopping() {
                 "The total price of the purchase: $" + res[0].price * answer2.quantity);
 
               var newQuantity = res[0].stock_quantity - quantity;
+              var newProductSale = res[0].price * answer2.quantity;
               connection.query(
                 "UPDATE products SET stock_quantity = " +
                   newQuantity +
+                  " WHERE item_id = " +
+                  res[0].item_id,
+                  "UPDATE products SET product_sales = " +
+                  newProductSale +
                   " WHERE item_id = " +
                   res[0].item_id,
                 function(err, resUpdate) {

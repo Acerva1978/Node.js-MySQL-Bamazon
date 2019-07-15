@@ -32,7 +32,22 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
 
 
 
+CREATE TABLE departments(
+    department_id INT(10) AUTO_INCREMENT NOT NULL,
+    department_name VARCHAR(100) NOT NULL,
+    over_head_costs DECIMAL(10,2) NOT NULL,
+    total_profit DECIMAL(10,2) NOT NULL,
+    PRIMARY KEY(department_id));
 
+INSERT INTO departments(department_name, over_head_costs, total_profit)
+VALUES ("Music", 50000.00, 15000.00),
+    ("Electronics", 20000.00, 12000.00),
+    ("Automobile", 30000.00, 15000.00),
+    ("living Room", 3000.00, 12000.00),
+    ("Accessories", 1200.00, 15000.00),
+    ("Camping", 40000.00, 12000.00),
+    ("Computer Electornics", 35000.00, 15000.00),
+    ("Outdoors", 12000.00, 12000.00);
 
   
 

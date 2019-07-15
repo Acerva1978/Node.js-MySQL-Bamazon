@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 var Table = require("cli-table2");
@@ -5,8 +7,8 @@ var Table = require("cli-table2");
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
-  user: "root",
-  password: "password",
+  user: process.env.id,
+  password: process.env.pw,
   database: "bamazonDB"
 });
 
