@@ -33,12 +33,20 @@ A mock storefront with departments and products. Customers, managers, and superv
         * End Session
 
     * If the manager selects `View Products for Sale`, it lists all of the products in the store including all of their details.
+    
+ ![](images/BMproductForSale.png)
 
     * If the manager selects `View Low Inventory`, it'll list all the products with less than five items in its StockQuantity column.
+    
+  ![](images/BMlowInventory.png)
 
     * If the manager selects `Add to Inventory`, it allows the manager to select a product and add inventory.
+    
+  ![](images/BMaddToInventory.png)
 
     * If the manager selects `Add New Product`, it allows the manager to add a new product to the store.
+    
+   ![](images/BMaddNewProduct.png)
 
     * If the manager selects `End Session`, it ends the session and doesn't go back to the menu.
 
