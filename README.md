@@ -19,7 +19,7 @@ A mock storefront with departments and products. Customers, managers, and superv
       * If the purchase goes through, it updates the stock quantity to reflect the purchase.
       * It will also update the product sales in the department MySQL database table.
 
-# Costumer DEMO
+# Costumer 
 ![](images/banazonCustomer.png)
 -----------------------
 
