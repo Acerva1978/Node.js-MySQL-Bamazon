@@ -20,7 +20,7 @@ A mock storefront with departments and products. Customers, managers, and superv
       * It will also update the product sales in the department MySQL database table.
 
 # Costumer DEMO
-![](banazonCustomer.png)
+![](images/banazonCustomer.png)
 -----------------------
 
 2. `BamazonManager.js`
