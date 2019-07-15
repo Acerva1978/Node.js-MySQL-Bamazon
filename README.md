@@ -1,7 +1,6 @@
 # Node.js-MySQL-Bamazon
 
-<<<<<<< HEAD
-=======
+
 A mock storefront with departments and products. Customers, managers, and supervisors are able to use this app.
 
 
